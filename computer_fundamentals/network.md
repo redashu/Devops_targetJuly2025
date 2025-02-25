@@ -18,3 +18,6 @@
 
 <img src="ipv4.png">
 
+## Classes of IP address 
+
+<img src="class1.png">
