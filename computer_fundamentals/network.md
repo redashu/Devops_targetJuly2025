@@ -21,3 +21,12 @@
 ## Classes of IP address 
 
 <img src="class1.png">
+
+## Switch in Networking 
+
+<img src="sw1.png">
+
+### DHCP 
+
+<img src="dhcp.png">
+
