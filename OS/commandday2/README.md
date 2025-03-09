@@ -51,3 +51,52 @@ d-----          5/1/2024  12:14 AM                course_materials
 d-----        11/25/2024   2:30 AM                flask_project
 
 ```
+
+## Now we can start with linux commands only 
+
+### commands 
+
+### checking current loging username 
+
+```
+wetravel15122021@cloudshell:~$ 
+wetravel15122021@cloudshell:~$ whoami
+wetravel15122021
+
+wetravel15122021@cloudshell:~$ pwd
+/home/wetravel15122021
+wetravel15122021@cloudshell:~$ 
+
+```
+
+## creating multi dir
+
+```
+$ 
+wetravel15122021@cloudshell:~$ mkdir  hio hello opkey 
+wetravel15122021@cloudshell:~$ ls
+hello  hio  opkey  README-cloudshell.txt
+wetravel15122021@cloudshell:~$ 
+wetravel15122021@cloudshell:~$ 
+wetravel15122021@cloudshell:~$ rmdir  hio hello opkey 
+wetravel15122021@cloudshell:~$ ls
+README-cloudshell.txt
+wetravel15122021@cloudshell:~$ 
+
+
+```
+
+### using {start..end}
+
+```
+wetravel15122021@cloudshell:~$ mkdir ashu{1..10}  
+wetravel15122021@cloudshell:~$ ls
+ashu1  ashu10  ashu2  ashu3  ashu4  ashu5  ashu6  ashu7  ashu8  ashu9  README-cloudshell.txt
+wetravel15122021@cloudshell:~$ 
+wetravel15122021@cloudshell:~$ rmdir ashu{1..10}  
+wetravel15122021@cloudshell:~$ ls
+README-cloudshell.txt
+wetravel15122021@cloudshell:~$ 
+
+```
+
