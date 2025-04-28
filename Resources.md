@@ -2,3 +2,7 @@
 
 [click_here](https://www.dnswatch.info/)
 
+## Python code repo 
+
+[click_here](https://github.com/redashu/pythonLang.git)
+
