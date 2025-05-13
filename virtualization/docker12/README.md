@@ -50,3 +50,28 @@ Dockerfile  LICENSE.txt  README.txt  assets  elements.html  generic.html  html5u
 @redashu ➜ /workspaces/mywebapp-docker/html-sample-app (master) $ 
 
 ```
+
+### creating container 
+
+```
+@redashu ➜ /workspaces/mywebapp-docker/html-sample-app (master) $ docker images
+REPOSITORY   TAG       IMAGE ID       CREATED         SIZE
+ashunginx    gitapp    6e95024ace1a   3 minutes ago   196MB
+ashuhttp     v1        43d8b63dd220   4 days ago      590MB
+ashunginx    v1        8c1075f0cb62   6 days ago      192MB
+ashunginx    v2        b6abd83b5e17   6 days ago      192MB
+alpine       latest    aded1e1a5b37   2 months ago    7.83MB
+@redashu ➜ /workspaces/mywebapp-docker/html-sample-app (master) $ docker run -itd --name ashuc1 -p 1234:80  6e95024ace1a
+25dd236b81a29156996c02f34c1217e47a6707f8d17d938709fc417d6d7f6eed
+@redashu ➜ /workspaces/mywebapp-docker/html-sample-app (master) $ docker ps
+CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS          PORTS                                     NAMES
+25dd236b81a2   6e95024ace1a   "/docker-entrypoint.…"   44 seconds ago   Up 43 seconds   0.0.0.0:1234->80/tcp, [::]:1234->80/tcp   ashuc1
+@redashu ➜ /workspaces/mywebapp-docker/html-sample-app (master) $ 
+
+```
+
+### understading .dockerignore usage
+
+<img src="dg.png">
+
+
