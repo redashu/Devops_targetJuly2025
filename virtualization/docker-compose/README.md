@@ -240,3 +240,46 @@ ubuntu@ip-172-31-84-12:~$ docker  network inspect   bridge
                 "IPv6Address": ""
 
 ```
+
+## docker image push to docker hub 
+
+```
+@redashu ➜ /workspaces/mywebapp-docker (master) $ docker   tag   ashu-image:appv2   docker.io/dockerashu/panipurimage:v1 
+@redashu ➜ /workspaces/mywebapp-docker (master) $ 
+@redashu ➜ /workspaces/mywebapp-docker (master) $ docker  login   -u dockerashu
+Password: 
+WARNING! Your password will be stored unencrypted in /home/codespace/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credential-stores
+
+Login Succeeded
+@redashu ➜ /workspaces/mywebapp-docker (master) $ docker push docker.io/dockerashu/panipurimage:v1  
+The push refers to repository [docker.io/dockerashu/panipurimage]
+2e9d13d3d435: Pushed 
+941dd9dd8ee4: Mounted from library/nginx 
+f6e33ee35fd0: Mounted from library/nginx 
+9fd8b974f616: Mounted from library/nginx 
+a8b606cdf152: Mounted from library/nginx 
+cb857378ec55: Mounted from library/nginx 
+deb7d8874f38: Mounted from library/nginx 
+ace34d1d784c: Mounted from library/nginx 
+
+```
+
+### any one in this world can pull image now 
+
+```
+docker pull docker.io/dockerashu/panipurimage:v1
+
+```
+
+### 
+
+docker pull  dockerashu/panipurimage:v1
+
+## final images
+
+<img src="img1.png">
+<img src="img2.png">
+<img src="img3.png">
+<img src="img4.png">
