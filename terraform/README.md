@@ -32,3 +32,16 @@ aws_instance.example
 ## take code of HCL from given link /website
 
 [click](https://registry.terraform.io/)
+
+
+### Revision 
+
+## Terraform basic info 
+
+<img src="b1.png">
+
+### Understanding HCL keywords 
+
+
+<img src="b2.png">
+
