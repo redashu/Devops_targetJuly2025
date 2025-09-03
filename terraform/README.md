@@ -45,3 +45,28 @@ aws_instance.example
 
 <img src="b2.png">
 
+## final terraform code structure will look like 
+
+<img src="code1.png">
+
+
+### aws with vpc + ec2 + secuirty group understanding 
+
+<img src="aws.png">
+
+### Understanding variables and tfvars file 
+
+```
+10336  ls
+10337  terraform init 
+10338  terraform plan 
+10339  terraform apply
+10340  terraform output
+10341  terraform destroy --auto-approve 
+10342  terraform plan 
+10343  ls
+10344  terraform plan --help
+10345  terraform plan -var-file=ashu.tfvars
+10346  terraform apply  -var-file=ashu.tfvars
+
+```
